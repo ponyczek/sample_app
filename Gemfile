@@ -20,16 +20,9 @@ group :test do
   gem 'spork-rails', '4.0.0'
   gem 'guard-spork', '1.5.0'
   gem 'childprocess', '0.5.3'
-
+  gem 'factory_girl_rails', '4.2.1'
   # Uncomment this line on OS X.
-   gem 'growl', '1.0.3'
-
-  # Uncomment these lines on Linux.
-  # gem 'libnotify', '0.8.0'
-
-  # Uncomment these lines on Windows.
-  # gem 'rb-notifu', '0.0.4'
-  # gem 'wdm', '0.1.0'
+  gem 'growl', '1.0.3'
 end
 
 gem "sass-rails", "~> 4.0.2"
